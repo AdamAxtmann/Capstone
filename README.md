@@ -1,35 +1,30 @@
 == README
 
-# Ruby on Rails Tutorial: sample application
+# WebPHR - A Personal Health Record System
 
-This is the sample application for
-the [*Ruby on Rails Tutorial*](http://railstutorial.org/)
-by [Michael Hartl](http://michaelhartl.com/).
+WebPHR allows users to organize, store, and track their health information, including allergies, prescriptions, appointments and more.
+Contributors:
+Adam Axtmann
+Adam Brousseau
+Kanishka Goel
+Dennis Marcu
+Michael Moniz
 
+# Getting Started
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+What you'll need:
 
-Things you may want to cover:
+Ruby 1.9.3
+Rails 4.0.2
+A working installation of SQLite3 Database
 
-* Ruby version
+1. Install Ruby 1.9.3 from https://www.ruby-lang.org
 
-* System dependencies
+2. At the command prompt, install Rails
+	gem install rails
 
-* Configuration
+3. Fork or download the WebPHR repository. In the command prompy, cd to the WebPH directory, and start the server.
+	cd webphr
+	rails server
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+4. Using a browser, go to http://localhost:3000 and you will see WebPHR!
