@@ -15,8 +15,11 @@ Michael Moniz
 What you'll need:
 
 Ruby 1.9.3
+
 Rails 4.0.2
+
 A working installation of SQLite3 Database
+
 
 1. Install Ruby 1.9.3 from https://www.ruby-lang.org
 
